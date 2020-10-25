@@ -1,0 +1,21 @@
+.leBouton {
+  background-color: orange;
+  margin-top: 2rem;
+}
+
+.single-product {
+  width: 90vw;
+  margin: 2rem;
+}
+
+.single-product > h1 {
+  color: red;
+}
+
+@media screen and (min-width: 768px) {
+  .single-product {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 3rem;
+  }
+}
